@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    
+    
+    <TextView 
+        android:id="@+id/time_time"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:textSize="20sp" 
+        android:text="12.00 PM"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:textColor="#cc222222"/>
+   	
+   	<TextView 
+        android:id="@+id/tv_item_sysdia"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="15sp" 
+        android:text="120/75"
+        android:textColor="#cc222222"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical|center"/>
+
+    <TextView
+        android:id="@+id/tv_item_plus"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:text="80"
+        android:textColor="#cc222222"
+        android:layout_marginRight="10dp"
+        android:gravity="center_vertical|center"/>
+
+</LinearLayout>
